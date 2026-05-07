@@ -1,0 +1,3 @@
+import yash 
+
+yash.welcome()
