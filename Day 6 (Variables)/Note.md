@@ -48,7 +48,8 @@ print(tuple)
 ## Mapped data: dict
 dict: A dictionary is an unordered collection 
 of data containing a key:value pair. 
-The key:value pairs are enclosed within curly brackets.
+The key:value pairs are enclosed within curly brackets yash.
+
 ```py
 dict1 = {"name":"nevr", "age":17, "canVote":False}
 print(dict1)
