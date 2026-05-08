@@ -1,3 +1,0 @@
-a = 23
-b = 23
-print("A") if a > b    else print("=") if  a==b else print("B")
