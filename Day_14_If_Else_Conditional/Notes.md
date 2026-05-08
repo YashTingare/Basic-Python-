@@ -1,5 +1,5 @@
 # Conditional operation:
-1.  `>  : Greatter then.
+1. `>   : Greatter then.
 2. `>=  : Greatter then equal to.
 3. <    : Less then.
 4. <=   : Less then and equal to.
