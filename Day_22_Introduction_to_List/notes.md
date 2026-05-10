@@ -61,6 +61,7 @@ else:
 # List Comprehension
 
 List comprehensions are used for creating new lists from other iterables like lists, tuples, dictionaries, sets, and even in arrays and strings.
+
  ## Syntax:
  1. List = [Expression(item) for item in iterable if Condition]
  2. Expression: It is the item which is being iterated.
