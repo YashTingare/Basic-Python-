@@ -35,7 +35,7 @@ Hello, Jade Peter Wesker
 # REQUIRED ARGUMENTS:
 In case we don’t pass the arguments with a key = value syntax, then it is necessary to pass the arguments in the correct positional order and the number of arguments passed should match with actual function definition.
 
-Example 1: 
+Example 1:  
 when number of arguments passed does not match to the actual function definition.
 
 ```python
@@ -101,8 +101,6 @@ Hello, James Buchanan Barnes
 
 ## return Statement
 The return statement is used to return the value of the expression back to the calling function.
-
- 
 
 Example:
 ```python
