@@ -13,7 +13,6 @@
 #     print("Mummy")
 
 
-
 list = [i for i in range(15)]
 print(list)
 
