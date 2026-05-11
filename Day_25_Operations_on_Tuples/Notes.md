@@ -17,7 +17,6 @@ print(countries)
  ```
 
 Thus, we convert the tuple to a list, manipulate items of the list using list methods, then convert list back to a tuple.
-
 However, we can directly concatenate two tuples without converting them to list.
 
 #### Example:
@@ -27,7 +26,6 @@ countries2 = ("Vietnam", "India", "China")
 southEastAsia = countries + countries2
 print(southEastAsia)
 ```
-
 #### Output:
 ```
 ('Pakistan', 'Afghanistan', 'Bangladesh', 'ShriLanka', 'Vietnam', 'India', 'China')
@@ -42,7 +40,7 @@ The count() method of Tuple returns the number of times the given element appear
 ### Syntax:
 ```python
 tuple.count(element)
-```
+``` 
 
 ### Example
 ```python
