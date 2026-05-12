@@ -1,11 +1,10 @@
-dic = {
-'name':"Yash",'age':17,'standerd':12, 'Hobby': "Cooking"
-}
-
+# dic = {
+# 'name':"Yash",'age':17,'standerd':12, 'Hobby': "Cooking"
+# }
 # print(dic)
 # print(dic.keys())
 # print(dic.values())
-print(dic.items())
+# print(dic.items())
 
 # for key in dic.keys():
 #     print(key)
