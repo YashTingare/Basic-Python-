@@ -6,7 +6,7 @@ def func1():
         return 1
 
     except:
-        print("Neta taka number")
+        print("Neta thaka number")
         return 0
 
     finally:
