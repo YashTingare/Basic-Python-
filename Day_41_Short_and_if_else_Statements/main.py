@@ -1,3 +1,3 @@
-a = 23
-b = 23
-print("A") if a > b    else print("=") if  a==b else print("B")
+a = int(input("Enter the you first number: "))
+b = int(input("Enter you second number: "))
+print("A") if a > b else print("chota") if a == b else print("B")   
