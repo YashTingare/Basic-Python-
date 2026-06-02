@@ -1,35 +1,43 @@
-# # MAP
+# MAP
 
 # def cube(x):
 #     return x*x*x
+
 # print(cube(2))
 
-# l = [1, 2, 3, 4, 5, 6, 7]
+#      OR 
 
-# # newl = []
-# # for item in l:
-# #     newl.append(cube(item))
+# def cube(x):
+#     return x*x*x
+
+# l = [2,98,3,6,4]
 
 # newl = list(map(cube, l))
-
 # print(newl)
 
-# #FILTER
+# ------------------------------------------
+
+# FILTER
+
+# l = [2,98,3,6,4]
 
 # def filter_function(a):
-#     return a>4
+#     return a>3
 
 # newnewl = list(filter(filter_function, l))
 # print(newnewl)
 
+# ------------------------------------------
 
+#  REDUCE
 
-#REDUCE
+# from functools import reduce
 
-from functools import reduce
+# l = [2,1,2,3]
 
-numbers = [1, 2, 5, 4, 6]
+# def mycube(x, y):
+#     return x + y
 
-sum = reduce(lambda x,y: x+y, numbers)
+# cube = reduce(mycube, l)
 
-print(sum)
+# print(cube)

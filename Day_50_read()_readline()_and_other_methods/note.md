@@ -1,4 +1,4 @@
-# readlines() method
+# Readlines() Method
 
 The readline() method reads a single line from the file. If we want to read multiple lines, we can use a loop.
 
@@ -12,7 +12,7 @@ while True:
 ```
 The readlines() method reads all the lines of the file and returns them as a list of strings.
 
-# writelines() method
+# Writelines() Method
 
 The writelines() method in Python writes a sequence of strings to a file. The sequence can be any iterable object, such as a list or a tuple.
 

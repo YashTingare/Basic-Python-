@@ -1,16 +1,22 @@
-# # READING A FILE
-# f = open('Day 49 (File IO)/myfile.txt', 'r')
+# Read mode file
+
+# f = open("Basic-Python-/Day_49_File_IO/myfile.txt", "r")
 # text = f.read()
 # print(text)
 # f.close()
 
-# WRITING A FILE
+#  ---------------------------------------------
 
-# f = open('Day 49 (File IO)/myfile2.txt', 'a')
-# f.write('Hello, world!\n')
-# f.close()
+#  Writing To a File
 
-# SECOND METHOD in Writing A File
+# W = open("Basic-Python-/Day_49_File_IO/myfile2.txt", "a")
+# W.write('Hello I am Yash')
+# W.close()
 
-with open('Day 49 (File IO)/myfile2.txt', 'a') as f:
-    f.write("Hey I am Yash")
+#   OR you can write as with "with" statemant so you dont havr to type close at the end
+
+# with open("Basic-Python-/Day_49_File_IO/myfile2.txt", "a") as w:
+#     w.write("\n I am in side the with open function")
+
+
+

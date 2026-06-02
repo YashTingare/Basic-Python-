@@ -1,7 +1,5 @@
-import os
+import os 
 
-if (os.path.exists("data")):
-    os.mkdir("Day 46 (os Module)/data")
-
-for i in range(1, 100):
-    os.mkdir(f"Day 46 (os Module)/data/Day {i}")
+# First i make data file in Day 46 file
+for i in range(0, 100):
+    os.mkdir(f"Basic-Python-/Day_46_os_Module/Data/Day{i+1}")
