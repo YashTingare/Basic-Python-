@@ -1,11 +1,15 @@
-class person:
-    name = "Yash"
-    age = 18
+class Person:
+    name = "Yash Chintamani Tingare"
     occupation = "Data Science"
-    networth = 20
+    age = 18
+    skills = "Python, Numpy, Pandas, Jupyter Lab, Git, GitHub"
     def info(self):
-        print(f"{self.name} is a {self.occupation}")
+        print(f"My name is {self.name}, I am {self.age} years old, and my occupation is {self.occupation}")
 
-a = person()
-# print(a.name, a.occupation)
+
+a = Person()
+b = Person
 a.info()
+a.occupation = "Machine Learning"
+print(a.occupation)
+
