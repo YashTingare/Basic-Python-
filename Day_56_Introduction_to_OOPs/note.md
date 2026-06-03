@@ -1,3 +1,45 @@
+# Object-Oriented Programming (OOP) 
+
+-Make your code more reusable
+-Easier to work with large program
+-OOP program prevent you from repeating code
+-OOP provide you security.
+
+## What are classes? 
+A class is a blueprint for creating object
+
+## What is Encapsulation?
+In programming, Encapsulation is about keeping some information (Data) safe and only letting it be change or looked at in specific ways.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Introduction to Object-oriented programming
 
 Introduction to Object-Oriented Programming in Python: In programming languages, mainly there are two approaches that are used to write program or code.
@@ -18,3 +60,5 @@ Another key feature of OOP in Python is inheritance, which allows new classes to
 Polymorphism is also supported in Python, which means that objects of different classes can be treated as if they were objects of a common class. This allows for greater flexibility in code and makes it easier to write code that can work with multiple types of objects.
 
 In summary, OOP in Python allows developers to model real-world concepts and entities using classes and objects, encapsulate data, reuse code through inheritance, and write more flexible code through polymorphism.
+
+
