@@ -56,6 +56,26 @@ Lets say you have created a parent class with a constructor function inside it a
 ### Types of Inheritance
 - Single Inheritance: All the inheritance we saw above was single level.
 - Multiple Inheritance: Multiple Inheritance means there will be 2 parent classes and only 1 child class and the child class will inherit all the attributes and methods of both parents.
+- Multilevel Inheritance: This is a basic case where we will have
+* grandparent class → parent class → child class
+* The attributes and methods are passed on through all the
+classes.
 
 > **Note:**
 >> **The constructor function will be inherited of the first class that has been Inherited. This is MRO(Method Resolution Order) followed by python.**
+
+## Polymorphism 
+
+Polymorphism is a core concept in Object-Oriented Programming (OOP). The word means "manyforms" — and in programming, it allows the same interface or method name to behave differently depending on the object or context.
+
+### Types of Polymorphism
+
+- Method Overridingo: This is where a child class overrides a method of the parent class, and Python decides at runtime which method to call, based on the object type.
+
+## Encapsulation
+1.  Encapsulation means putting data (variables) and code (functions) together in one place — inside a class
+2.  It also means hiding the internal details of how things work, and only showing what is needed@
+- It keeps data safe from being changed by mistake@
+- It makes your code clean and easy to use@
+- It gives control over what others can access or change.
+
