@@ -9,6 +9,6 @@ This project is designed to help beginners learn Python programming step by step
 ```py
 import os
 
-for in in rnage(0, 100):
+for in in range(0, 100):
   os.mkdir(f"path where you want to create 100 foulder/Day {i+1}")
 ```
