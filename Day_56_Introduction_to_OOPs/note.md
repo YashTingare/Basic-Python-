@@ -26,8 +26,8 @@ When we only see the essential part of our code and hides the rest is the proces
 
 ## What is Constructor?
 A constructor is a method that runs automatically when we call a class and this constructor function will target the objects location.
-
-**To target the objects loctaions we use self keywords**
+> **Note:**
+>>**To target the objects loctaions we use self keywords**
 
 ## Type of Attributes & Methods
 
@@ -57,4 +57,5 @@ Lets say you have created a parent class with a constructor function inside it a
 - Single Inheritance: All the inheritance we saw above was single level.
 - Multiple Inheritance: Multiple Inheritance means there will be 2 parent classes and only 1 child class and the child class will inherit all the attributes and methods of both parents.
 
-**The constructor function will be inherited of the first class that has been Inherited. This is MRO(Method Resolution Order) followed by python.**
+> **Note:**
+>> **The constructor function will be inherited of the first class that has been Inherited. This is MRO(Method Resolution Order) followed by python.**
