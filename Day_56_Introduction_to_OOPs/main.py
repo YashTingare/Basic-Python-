@@ -182,5 +182,5 @@ classes have same method name so the child class
 method will override your parent class method.
 """
 
-## Encapsulation hello
+## Encapsulation hell
 
