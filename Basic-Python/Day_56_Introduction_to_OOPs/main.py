@@ -300,12 +300,12 @@ method will override your parent class method.
 
 # print("It is even number") if a % 2 else print("It odd number") # Ternary Operation
 
-a = [1, 2, 3,4,5,6,7,8,9,10,12,13,14,15,16,17,18,19]
+# a = [1, 2, 3,4,5,6,7,8,9,10,12,13,14,15,16,17,18,19]
 
-b = []
+# b = []
 
-for i in a:
-    if i % 2 == 0:
-        b.append(i)
+# for i in a:
+#     if i % 2 == 0:
+#         b.append(i)
 
-print(b)
+# print(b)

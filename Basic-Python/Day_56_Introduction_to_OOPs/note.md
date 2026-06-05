@@ -1,9 +1,13 @@
 # Object-Oriented Programming (OOP) 
 
+**OOP is a way of organizing code that uses objects and classes to represent real-world entities and their behavior. In OOP, object has attributes thing that has specific data and can perform certain actions using methods.**
+
 - Make your code more reusable
 - Easier to work with large program
 - OOP program prevent you from repeating code
 - OOP provide you security.
+
+![alt text](image-1.png)
 
 ## What are Classes? 
 A class is a blueprint for creating object. There are 2 types of thing inside class Attributes and Methodes.
@@ -11,21 +15,41 @@ A class is a blueprint for creating object. There are 2 types of thing inside cl
 - Attributes - Variables defined inside the class are Attributes.
 - Methods - Function defined inside the class are Methods
 
+```py
+class Car:
+    a = 12 # Attributes
+
+    def hello():
+        print("Hello, I am Yash") # Method
+
+print(Car.a) # accessing the Attributes
+
+Car.hello() # Accessing the Method
+```
+
 ## What is Encapsulation?
 In programming, Encapsulation is about keeping some information (Data) safe and only letting it be change or looked at in specific ways.
+
+**Protect data from direct access**
 
 ## What is Ploymorphism?
 Ploymorphism means having many forms.
 
+**Allow the same method to behave differently**
+
 ## What is Inheritance?
 When one class inherits(receives) some feature from another class this phenomena is know as inheritance.
 
-## What is Abstraction?
+**Reuse code from existing classes**
 
+## What is Abstraction?
 When we only see the essential part of our code and hides the rest is the process of Abstraction.
+
+**Hide unnecesdsary details**
 
 ## What is Constructor?
 A constructor is a method that runs automatically when we call a class and this constructor function will target the objects location.
+
 > **Note:**
 >>**To target the objects loctaions we use self keywords**
 
@@ -45,10 +69,9 @@ print(reebook.pockets)
 ## Type of Attributes & Methods
 
 ### Attributes
-- Class attribute: A normal variable created inside a class is attribute and thats it.
+- Class Attribute: A normal variable created inside a class is attribute and thats it.
 
-- Instance attribute:  A attribute created using an instance like self.name, self.age etc. It is known as instance attributes
-
+- Instance Attribute:  A attribute created using an instance like self.name, self.age etc. It is known as instance attributes.
 
 ### Methods
 
@@ -69,7 +92,7 @@ class Aminal:
         print(f"I will capture the loctaion of objects {self.name}")
 
     @classmethod
-    def details(cls): # Class Methods captures the location of class
+    def details(cls): # @classmethods captures the location of class
         print(f"I will capture the location of classes {cls.king}")
 
     @staticmethod
@@ -80,6 +103,8 @@ class Aminal:
 ## Inheritance
 
 Inheritance allows a class (child class) to inherit properties and behaviors (attributes and methods) from another class (parent class)1
+
+![alt text](image.png)
 
 ### Constructor in Inheritance 
 
