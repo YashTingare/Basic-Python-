@@ -182,5 +182,69 @@ classes have same method name so the child class
 method will override your parent class method.
 """
 
+#  -------------------------------------------------------------------
+
 ## Encapsulation
 
+# class Demo:
+#     __company = "BMW"       # Private Class Attributes
+#     ID = 11                 # Public Class Attributes
+#     def __init__(self):
+#         self.name = "Yash"          # Public Object Attributes
+#         self._age = 19              # Protected Object Attributes
+#         self.__salary = "$275000"   # Private Object Attributes
+
+#     def show(self):                         # Public Method
+#         print("Inside the class: ")
+#         print("Public", self.name)          
+#         print("Protected", self.age)        
+#         print("Private", self.__salary)      
+
+
+# obj = Demo()
+# print(obj.name)
+# print(obj._age)
+# print(obj.__salary) # It will through the error becuase it is private attributes
+
+#  -------------------------------------------------------------------
+
+# Abstraction 
+
+# from abc import ABC, abstractmethod
+
+# class enforce(ABC):
+#     @abstractmethod
+#     def enginestart():
+#         print("Start the engine with biomatrics")
+
+# class Bike(enforce):
+#     def enginestart(self):
+#         print("Bike is Started")
+
+# class Car(enforce):
+#     def enginestart(self):
+#         print("Car is started")
+
+# class Truck(enforce):
+#     pass
+
+# obj1 = Bike()
+# obj1.enginestart()
+# obj2 = Car()
+# obj2.enginestart()
+# obj3 = Truck()      # It will give error because we didnt use enginestart()
+# obj3.enginestart()
+
+#  -------------------------------------------------------------------
+
+# Dunder methods
+
+class Animal:
+    def __init__(self, name):
+        self.name = name
+
+    def __str__(self):
+        return f"Hello my name is {self.name}"
+    
+obj = Animal("Lion")
+print(obj)

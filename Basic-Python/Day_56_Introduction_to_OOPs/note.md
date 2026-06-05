@@ -79,3 +79,38 @@ Polymorphism is a core concept in Object-Oriented Programming (OOP). The word me
 - It makes your code clean and easy to use@
 - It gives control over what others can access or change.
 
+
+### Access modifiers in python
+
+Access modifiers means how we give access of our attributes
+and methods to the object or inherited classes. There are 3 types
+lets see them one by one.
+
+1. **Public Attributes and Methods:** Till now every attribute and methods we have created are public means the inherited classes and objects can access them no matter what
+2.  **Protected Attributes and Methods:** 
+- python protected members are created using a single underscore but it still can be accessed from outside the class so you might wonder whats the point of using them
+- Python doesn’t enforce protected access like other languages (e.g., Java or C++). But it uses a naming convention to tell developers.
+3. **Private Attributes and Method:**
+- It cannot be accessed from outside the class — only from
+inside the class where it is defined
+- In Python, we use two underscores (__) before the name to
+make it private.
+
+## Abstraction 
+
+- Abstraction does not exist in python but we can achieve it using a library we will see what is a library later.
+- Abstraction is used to simplifying complex systems by focusing on essential features and hiding unnecessary details.
+- It is used to define a common interface for different subclasses 
+
+### Abstract classes and methods 
+
+- Abstract classes are classes that contains one or more abstract methods.
+- A method that is defined but not implemented in the abstract class. subclasses must provide the implementation.
+
+## Dunder methods
+
+- Dunder methods are special methods in Python that start and end with double underscores, like __init__, __str__, __add__, etc.
+- They automatically get called when you perform certain actions on an object.
+- They help you
+    - Customize behavior of your clasT
+    - Make your class objects behave like built-in data types (like strings, lists, etc.)
