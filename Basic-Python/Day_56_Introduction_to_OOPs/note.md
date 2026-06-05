@@ -114,3 +114,11 @@ make it private.
 - They help you
     - Customize behavior of your clasT
     - Make your class objects behave like built-in data types (like strings, lists, etc.)
+
+
+## Decorator
+
+- A decorator is just a function that modifies another function without changing its actual code.
+- Imagine you have a cake (your function). A decorator is like putting icing on the cake. It doesn’t change the cake itself, but makes it better, prettier, or adds some new flavor!
+- For creating a decorator you first have to create a decorator functions and then inside that we will create a wrapper.
+- Its tough to understand with text see the video

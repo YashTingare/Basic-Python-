@@ -8,7 +8,7 @@
 
 # Car.hello() # Accessing the Method
 
-# -------------------------------------------------------------------
+#------------------------------------------------------------------
 
  # Objects
 
@@ -22,7 +22,7 @@
 # print(reebok.name)
 # reebok.details()
 
-#  -------------------------------------------------------------------
+#-------------------------------------------------------------------
 
 # Constructor
 
@@ -37,7 +37,7 @@
 # print(reebook.material)
 # print(reebook.pockets)
 
-#  -------------------------------------------------------------------
+#-------------------------------------------------------------------
 
 # Type of Attributes & Methods
 
@@ -58,7 +58,7 @@
 #     def greeting(): # this is static method it will not capture the location of class and object
 #         print("Good morning")
 
-#  -------------------------------------------------------------------
+#-------------------------------------------------------------------
 
 #INHERITANCE
 
@@ -118,7 +118,7 @@
 # campus = Campus("Plastic", 4, 6, "Gold", "60 liters")
 # campus.details()
 
-#  -------------------------------------------------------------------
+#-------------------------------------------------------------------
 
 # Multiple Inheritance
 
@@ -139,7 +139,7 @@
 # print(robo.name)
 # print(robo.ID)
 
-#  -------------------------------------------------------------------
+#-------------------------------------------------------------------
 
 # Polymorphism
 
@@ -182,7 +182,7 @@ classes have same method name so the child class
 method will override your parent class method.
 """
 
-#  -------------------------------------------------------------------
+#-------------------------------------------------------------------
 
 ## Encapsulation
 
@@ -206,7 +206,7 @@ method will override your parent class method.
 # print(obj._age)
 # print(obj.__salary) # It will through the error becuase it is private attributes
 
-#  -------------------------------------------------------------------
+#-------------------------------------------------------------------
 
 # Abstraction 
 
@@ -235,18 +235,77 @@ method will override your parent class method.
 # obj3 = Truck()      # It will give error because we didnt use enginestart()
 # obj3.enginestart()
 
-#  -------------------------------------------------------------------
+#-------------------------------------------------------------------
 
 # Dunder methods
 
-class Animal:
-    def __init__(self, name):
-        self.name = name
+# class Animal:
+#     def __init__(self, name):
+#         self.name = name
 
-    def __str__(self):
-        return f"Hello my name is {self.name}"
+#     def __str__(self):
+#         return f"Hello my name is {self.name}"
     
-obj = Animal("Lion")
-print(obj)
+# obj = Animal("Lion")
+# print(obj)
 
- 
+#-------------------------------------------------------------------
+
+# Decorator
+
+# def extragreeting(func):
+#     def wrapper():
+#         print("Hello I am Yash Tingare")
+#         func()
+#         print("Thank You for everything")
+#     return wrapper
+
+# @extragreeting
+# def greetings():
+#     print("Good Morning")
+# greetings() 
+
+#-------------------------------------------------------------------
+
+## *args
+
+# def extragreeting(func):
+#     def wrapper(*args, **kargs):
+#         print("Hello I am Yash Tingare")
+#         func(*args, **kargs)
+#         print("Thank You for everything")
+#     return wrapper
+
+# @extragreeting
+# def addition(a,b,c):
+#     print(a+b+c)
+
+# addition(20,56,42) 
+
+## **kargs
+# def info(**kargs):
+#     pass
+# info(name = "Yash", age = 24, hight = "5'11")
+
+#-----------------------------------------------------------------
+
+# a = 23
+
+# if a % 2 :
+#     print("it a even number")
+# else:
+#     print("It a old number")
+
+# YOU CAN ALSO WRITE IN THIS WAY
+
+# print("It is even number") if a % 2 else print("It odd number") # Ternary Operation
+
+a = [1, 2, 3,4,5,6,7,8,9,10,12,13,14,15,16,17,18,19]
+
+b = []
+
+for i in a:
+    if i % 2 == 0:
+        b.append(i)
+
+print(b)
