@@ -62,8 +62,30 @@
 
 #INHERITANCE
 
+class Animals:
+    def __init__(self, name):
+        self.name = name
 
-## Single Inheritance 
+    def info(self):
+        print("Animal name: ", self.name)
+        
+class Dog(Animals):
+    def sound(self):
+        print(self.name, "barks")
+
+class Cat(Animals):
+    def sound(self):
+        print(self.name,"Meow")
+
+dog  = Dog("Buddy")
+cat = Cat("Gudu")
+# Inheritance
+dog.info()
+dog.sound()
+cat.info()
+cat.sound()
+
+## Big Example Single Inheritance 
 
 # class Mainfactory:
      
