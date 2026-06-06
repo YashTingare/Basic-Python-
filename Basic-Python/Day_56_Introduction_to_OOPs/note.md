@@ -104,7 +104,9 @@ class Aminal:
 
 Inheritance allows a class (child class) to inherit properties and behaviors (attributes and methods) from another class (parent class)1
 
-![alt text](image.png)
+### super() function
+
+super() function is used to call methods from a parent (superclass) inside a child (subclass). It allows to extend or override inherited methods while still reusing the parent's functionality.
 
 ### Constructor in Inheritance 
 
@@ -241,9 +243,9 @@ obj.details()
 
 ## Encapsulation
 1.  Encapsulation means putting data (variables) and code (functions) together in one place — inside a class
-2.  It also means hiding the internal details of how things work, and only showing what is needed@
+2.  It also means hiding the internal details of how things work, and only showing what is needed
 - It keeps data safe from being changed by mistake
-- It makes your code clean and easy to use@
+- It makes your code clean and easy to use
 - It gives control over what others can access or change.
 
 
@@ -286,9 +288,8 @@ print(obj.__salary) # It will through the error becuase it is private attributes
 ```
 
 ## Abstraction 
-
+- Abstraction hides the internal implementation details while exposing only the necessary functionality. It helps focus on "what to do" rather than "how to do it."
 - Abstraction does not exist in python but we can achieve it using a library we will see what is a library later.
-- Abstraction is used to simplifying complex systems by focusing on essential features and hiding unnecessary details.
 - It is used to define a common interface for different subclasses 
 
 ### Abstract classes and methods 
@@ -396,3 +397,6 @@ def info(**kargs):
     pass
 info(name = "Yash", age = 24, hight = "5'11")
 ```
+
+## Zip 
+The zip() function in Python is used to combine multiple iterables such as lists or tuples into a single iterator of tuples. 

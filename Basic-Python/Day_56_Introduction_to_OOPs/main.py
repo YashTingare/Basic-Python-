@@ -62,31 +62,30 @@
 
 #INHERITANCE
 
-class Animals:
-    def __init__(self, name):
-        self.name = name
+# class Animals:
+#     def __init__(self, name):
+#         self.name = name
 
-    def info(self):
-        print("Animal name: ", self.name)
+#     def info(self):
+#         print("Animal name: ", self.name)
         
-class Dog(Animals):
-    def sound(self):
-        print(self.name, "barks")
+# class Dog(Animals):
+#     def sound(self):
+#         print(self.name, "barks")
 
-class Cat(Animals):
-    def sound(self):
-        print(self.name,"Meow")
+# class Cat(Animals):
+#     def sound(self):
+#         print(self.name,"Meow")
 
-dog  = Dog("Buddy")
-cat = Cat("Gudu")
-# Inheritance
-dog.info()
-dog.sound()
-cat.info()
-cat.sound()
+# dog  = Dog("Buddy")
+# cat = Cat("Gudu")
+# # Inheritance
+# dog.info()
+# dog.sound()
+# cat.info()
+# cat.sound()
 
 ## Big Example Single Inheritance 
-
 # class Mainfactory:
      
 #     def __init__(self,brand, material, zips, pockets):
@@ -329,5 +328,39 @@ method will override your parent class method.
 # for i in a:
 #     if i % 2 == 0:
 #         b.append(i)
-
 # print(b)
+
+# OR 
+
+# b = [i for i in a if i % 2 == 0]
+# print(b)
+
+#-----------------------------------------------------------------
+
+# Zip
+
+# a = ["a", "b", "c"]
+# b = [2, 4, 6]
+
+# res = zip(a, b)
+# print(list(res))
+
+# Map
+
+# name = ["Yash", "Samartha", "Vedika", "Muduakli"]
+# for i in name:
+#     print(len(i))
+
+# OR
+
+# length = list(map(len, name))
+
+
+temp = [0, 12,20, 30, 40 ,100]
+
+def converter(a):
+    f = (a * 9/5) + 32
+    return f
+
+temp = list(map(converter, temp))
+print(temp)
